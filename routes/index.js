@@ -19,5 +19,14 @@ router.get('/register', (req, res) => {
 router.get('/auth', (req, res) => {
   res.send("auth");
 });
+router.get('/create', (req, res) => {
+  res.send("create");
+});
+router.get('/update', (req, res) => {
+  res.send("update");
+});
+router.get('/delete', (req, res) => {
+  res.send("delete");
+});
 
 module.exports = router;
