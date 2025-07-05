@@ -16,5 +16,8 @@ const uploads = multer({ storage: storage });
 router.get('/register', (req, res) => {
   res.send("register");
 });
+router.get('/auth', (req, res) => {
+  res.send("auth");
+});
 
 module.exports = router;
